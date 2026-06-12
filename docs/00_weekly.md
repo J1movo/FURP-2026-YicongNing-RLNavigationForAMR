@@ -32,14 +32,29 @@
 
 ### Week 1 — YYYY-MM-DD
 
-**Attended this week's meeting:** Yes / No
+**Attended this week's meeting:** Yes
 
 **Progress this week**
 - Set up repository from the FURP template.
-- _..._
+- Install ROS2 and its dependencies.
+- Set up ROS2 workspace and environments.
+- Choose starter path: **Habitat RL navigation path** for end-to-end navigation and reward design.
+- Environment Record:
+Operaing system - Windows11
+Python version - 3.13.9
+Package manager - Pixi
+Repository - [Here](https://github.com/J1movo/FURP-2026-YicongNing-RLNavigationForAMR/)
+Install commands -
+    **Install Pixi**
+    > pixi install
+    pixi run python preinstall_setup_windows.py
+    
+    **ROS2 environment**
+    > pixi shell
+    call D:\ROS2\lyrical\local_setup.bat\
 
 **Challenges & blockers**
-- _..._
+- Commands are different in Powershell, CMD, and git bash. 
 
 **Next steps**
 - _..._
