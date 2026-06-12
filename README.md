@@ -25,16 +25,16 @@ This is your project home for the FURP programme. **Fork this template**, rename
 
 | Field | Your entry |
 |---|---|
-| Student name(s) | _e.g. Jason Zhang_ |
-| Project title | _..._ |
-| Project tag | _e.g. ROSBootcamp_ |
+| Student name(s) | Yicong Ning |
+| Project title | End-to-End Navigation for an AMR with Reinforcement Learning |
+| Project tag | RLNavigationForAMR |
 | Track | Research |
-| Supervising faculty | _..._ |
-| Project lead | _..._ |
+| Supervising faculty | FoSE |
+| Project lead | Tianxiang Cui |
 | Team or individual | _..._ |
 | Cited paper being replicated | _title + link/DOI_ |
 
-**One-line summary:** _What is your project about? (1â€“2 sentences)_
+**One-line summary:** This project builds an end-to-end navigation policy for an Autonomous Mobile Robot (AMR) using reinforcement learning. Instead of hand-designed planning modules, the robot learns to go from sensor inputs (e.g., lidar/depth) and a goal position directly to control commands.
 
 ---
 
@@ -97,10 +97,10 @@ Any **leave of absence** or **withdrawal** must be notified to us **by email** â
 
 ## Quick checklist
 
-- [ ] Forked the template and renamed the repo (`FURP-2025/YourName-ProjectTag`)
-- [ ] Made the repo public **or** shared it with the research group
-- [ ] Filled in the *Project Info* table above
-- [ ] Started `docs/00_weekly.md`
+- [x] Forked the template and renamed the repo (`FURP-2025/YourName-ProjectTag`)
+- [x] Made the repo public **or** shared it with the research group
+- [x] Filled in the *Project Info* table above
+- [x] Started `docs/00_weekly.md`
 - [ ] Created my first file in `docs/meeting_notes/`
 - [ ] (By Showcase) Added `FURP_Showcase.pdf` to the repo root
 
