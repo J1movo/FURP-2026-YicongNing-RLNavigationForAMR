@@ -163,5 +163,9 @@ ROS 2 Humble 的 C 扩展是 **cpython-310**，而 habitat-baselines 装在 **Py
 
 ## 四、README 里的两处待补充项
 
-1. 仓库根 `README.md` 的「Cited paper being replicated」一栏当前为空 —— 报告按**DD-PPO (Wijmans et al., ICLR 2020) + Habitat (ICCV 2019)** 两篇合写，建议同步回填。
-2. 根 `README.md` 的「Team or individual」一栏已填 **Team**（2026-09-22 由作者确认）。合作阶段的材料另行署名（见 `src/joint_phase/PROVENANCE.md`）。
+两项均已回填（2026-09-22）：
+
+1. 根 `README.md` 的「Cited paper being replicated」已填 **DD-PPO (Wijmans et al., ICLR 2020) + Habitat (ICCV 2019)**，与报告 §I.B 的复现口径一致。
+2. 根 `README.md` 的「Team or individual」已填 **Team**。合作阶段的材料另行署名（见 `src/joint_phase/PROVENANCE.md`）。
+
+README 另已补充项目概览、交付物索引，并把目录结构更新为仓库实际状态。
