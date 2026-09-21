@@ -61,21 +61,7 @@ Replicated the PointGoal PPO navigation baseline in Habitat on the Gibson datase
 REPORT.md                   final report
 ```
 
-## Requirements
-
-To earn the FURP certificate, all three must be satisfied:
-
-1. Attend > 50% of programme activities.
-2. Submit a poster as `FURP_Showcase.pdf` in the repo root.
-3. Present at the Poster Showcase.
-
-**Research Track minimum:** replicate a cited paper with at least 10% innovation. The three
-innovations here are (i) systematic localisation of the TorchScript export defect with a
-tensor-level evidence chain, (ii) a controlled dual-modality comparison under identical dataset,
-hyperparameters and seed, and (iii) a two-process TCP-bridge simulation harness. See
-[`REPORT.md`](REPORT.md) §I.C.
-
-## Checklist
+## Quick checklist
 
 - [x] Forked the template and renamed the repo
 - [x] Made the repo public **or** shared it with the research group
@@ -83,10 +69,6 @@ hyperparameters and seed, and (iii) a two-process TCP-bridge simulation harness.
 - [x] Started `docs/00_weekly.md`
 - [x] Created meeting notes in `docs/meeting_notes/`
 - [ ] (By Showcase) Added `FURP_Showcase.pdf` to the repo root
-
-> This project is delivered as a **written report** ([`REPORT.md`](REPORT.md)); no demo video or
-> poster was produced. `FURP_Showcase_PLACEHOLDER.md` is the template placeholder and is kept
-> until a poster is submitted.
 
 ---
 

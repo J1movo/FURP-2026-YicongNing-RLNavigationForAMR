@@ -19,8 +19,8 @@
 |---|---|---|
 | ROS 版本 | **已确认：ROS1 Noetic** | `printenv \| grep ros` 显示 `ROS_DISTRO=noetic`、`ROS_VERSION=1`。`/opt/ros/` 下只有 `noetic` 目录，没有装 ROS2。后续节点一律用 `rospy`/`roscpp`，不用 `rclpy` |
 | 操作系统 | 已确认 | Ubuntu 20.04.6 LTS (Focal Fossa)，aarch64 架构（对应上方 Jetson 平台） |
-| 网络连接方式 | 已确认 | WiFi：SSID `ORBBOT`，密码 `dongguan`；虚拟机用户需桥接模式连接 |
-| 远程登录方式 | 已确认（IP需现场确认） | `ssh wheeltec@<机器人IP>`，密码 `dongguan`。实测过 `192.168.0.100`（成功），readme 中写的是 `192.168.0.158` —— **IP 会变化，以实际路由器分配为准**，登录前建议先确认当前IP |
+| 网络连接方式 | 已确认 | WiFi：SSID `ORBBOT`，密码见私有记录；虚拟机用户需桥接模式连接 |
+| 远程登录方式 | 已确认（IP需现场确认） | `ssh wheeltec@<机器人IP>`，密码见私有记录。实测过 `192.168.0.100`（成功），readme 中写的是 `192.168.0.158` —— **IP 会变化，以实际路由器分配为准**，登录前建议先确认当前IP |
 | 现有功能包示例 | 已确认，且已在运行 | 车载主机开机后已有一套 body 交互 demo 常驻运行（节点 `/body_display`、`/body_interaction`、`/body_main` 等，另有 `wheeltec_robot` 底盘驱动节点、`robot_pose_ekf`、`robot_state_publisher`）。**注意**：这套 demo 会持续发布/订阅话题，正式开发 PPO 节点时要留意是否需要先停掉它，避免话题/资源冲突（尤其 `/cmd_vel` 控制权争抢，见下方发现） |
 | 可视化工具 | 已确认 | `rqt_image_view`，订阅压缩图像话题（如 `/repub/body/body_display/compressed`）可获得更流畅画面 |
 | 现有工作空间 | 已确认 | 家目录下有多个 catkin 工作空间：`wheeltec_robot`（底盘/外设驱动核心包，含 `turn_on_wheeltec_robot`、GPS、机械臂、语音等）、`wheeltec_lidar`、`wheeltec_arm`、`cartographer_ws`（Cartographer SLAM）。新的 PPO 推理节点建议新建独立工作空间，避免污染这些现有包 |
