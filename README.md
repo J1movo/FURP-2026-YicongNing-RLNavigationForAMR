@@ -31,7 +31,7 @@ This is your project home for the FURP programme. **Fork this template**, rename
 | Track | Research |
 | Supervising faculty | FoSE |
 | Project lead | Tianxiang Cui |
-| Team or individual | _..._ |
+| Team or individual | Team |
 | Cited paper being replicated | _title + link/DOI_ |
 
 **One-line summary:** This project builds an end-to-end navigation policy for an Autonomous Mobile Robot (AMR) using reinforcement learning. Instead of hand-designed planning modules, the robot learns to go from sensor inputs (e.g., lidar/depth) and a goal position directly to control commands.
