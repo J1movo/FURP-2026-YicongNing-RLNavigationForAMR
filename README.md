@@ -29,7 +29,7 @@ Replicated the PointGoal PPO navigation baseline in Habitat on the Gibson datase
 | Dataset | Gibson (88 scenes) | Gibson (88 scenes) |
 | Random seed | 42 | 42 |
 
-**Key finding.** The TorchScript export pipeline was silently inconsistent with the trained model: the exported visual backbone never received its trained weights, gained an untrained downsampling branch, and was rebuilt with a different normalisation type and an extra recurrent layer. The defect raises no error, so the reported simulation metrics describe the original checkpoint rather than the artefact that was deployed. Full evidence chain and a reproducible verification script are in [`REPORT.md`](REPORT.md) §VII.A.
+**Key finding:** The TorchScript export pipeline was silently inconsistent with the trained model: the exported visual backbone never received its trained weights, gained an untrained downsampling branch, and was rebuilt with a different normalisation type and an extra recurrent layer. The defect raises no error, so the reported simulation metrics describe the original checkpoint rather than the artefact that was deployed. Full evidence chain and a reproducible verification script are in [`REPORT.md`](REPORT.md) §VII.A.
 
 ## Deliverables
 
