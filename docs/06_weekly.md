@@ -91,6 +91,7 @@
 **Links (optional):**
 - Deploy directory: `FURP-2026-YicongNing-RLNavigationForAMR/src/deploy/`
 - TorchScript models: `src/deploy/policy_depth_jit.pt`, `src/deploy/policy_rgbd_jit.pt`
+- Lab 5 (deploy code): `src/lab5/`
 - Gazebo workspace: `tb3_pointnav_ws/`
 - Nav2 launch: `ros2 launch turtlebot3_navigation2 navigation2.launch.py map:=$HOME/tb3_map.yaml`
 - SLAM map: `~/tb3_map.pgm`, `~/tb3_map.yaml`

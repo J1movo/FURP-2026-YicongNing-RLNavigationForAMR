@@ -1,0 +1,1633 @@
+{
+  "ckpt_path": "/root/autodl-tmp/exp/baseline_seed300/checkpoints/latest.pth",
+  "num_episodes": 200,
+  "summary": {
+    "total": 200,
+    "success": 179,
+    "success_rate": 0.895
+  },
+  "failure_breakdown": {
+    "success": {
+      "count": 179,
+      "pct_of_failures": 8.523809523809524,
+      "avg_dtg": 0.10253359910163133
+    },
+    "bad_stop": {
+      "count": 2,
+      "pct_of_failures": 0.09523809523809523,
+      "avg_dtg": 0.3692810386419296
+    },
+    "near_miss": {
+      "count": 6,
+      "pct_of_failures": 0.2857142857142857,
+      "avg_dtg": 0.24155444900194803
+    },
+    "lost": {
+      "count": 13,
+      "pct_of_failures": 0.6190476190476191,
+      "avg_dtg": 7.827576261300307
+    }
+  },
+  "episodes": [
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9757216176873967,
+      "distance_to_goal": 0.035933542996644974,
+      "reward": 5.783115863800049
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.889116534271306,
+      "distance_to_goal": 0.0631830096244812,
+      "reward": 4.601934432983398
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8159481708226151,
+      "distance_to_goal": 0.08370313793420792,
+      "reward": 7.956005096435547
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9441322571824072,
+      "distance_to_goal": 0.1084081381559372,
+      "reward": 11.17524528503418
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7891498473785471,
+      "distance_to_goal": 0.09792602062225342,
+      "reward": 5.9403276443481445
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '19')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8049257725850033,
+      "distance_to_goal": 0.10112516582012177,
+      "reward": 6.834590911865234
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.960422507149773,
+      "distance_to_goal": 0.08341018855571747,
+      "reward": 13.095514297485352
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '19')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9846271111745438,
+      "distance_to_goal": 0.08352170884609222,
+      "reward": 12.784323692321777
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '3')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7598014250609706,
+      "distance_to_goal": 0.11337503045797348,
+      "reward": 9.679768562316895
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.37238264083862305,
+      "reward": 3.3459861278533936
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '6')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6665391090380703,
+      "distance_to_goal": 0.06136523559689522,
+      "reward": 8.889613151550293
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.21402215957641602,
+      "reward": 12.253449440002441
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7412363653806665,
+      "distance_to_goal": 0.07649575918912888,
+      "reward": 14.608952522277832
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9755223135926676,
+      "distance_to_goal": 0.0471164770424366,
+      "reward": 10.80837345123291
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8055263785993264,
+      "distance_to_goal": 0.045937445014715195,
+      "reward": 6.957026481628418
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.47249517973608784,
+      "distance_to_goal": 0.13341863453388214,
+      "reward": 13.342137336730957
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.019937273114919662,
+      "reward": 8.409193992614746
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.948996840282449,
+      "distance_to_goal": 0.08723929524421692,
+      "reward": 12.060514450073242
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.97636963636203,
+      "distance_to_goal": 0.14960774779319763,
+      "reward": 12.216482162475586
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5140657111244751,
+      "distance_to_goal": 0.09177430719137192,
+      "reward": 4.460890293121338
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '6')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.504746736866519,
+      "distance_to_goal": 0.09036172181367874,
+      "reward": 6.320883750915527
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9595794300679303,
+      "distance_to_goal": 0.06619449704885483,
+      "reward": 9.390595436096191
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 5.753303050994873,
+      "reward": 5.355387210845947
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9232489006990949,
+      "distance_to_goal": 0.17661291360855103,
+      "reward": 6.608148574829102
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9357864072316037,
+      "distance_to_goal": 0.1459580659866333,
+      "reward": 12.966731071472168
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9304285146034728,
+      "distance_to_goal": 0.12205303460359573,
+      "reward": 9.555601119995117
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9605866578396004,
+      "distance_to_goal": 0.13055267930030823,
+      "reward": 8.645995140075684
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9559127990918651,
+      "distance_to_goal": 0.1674337089061737,
+      "reward": 10.324687957763672
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9616630405150565,
+      "distance_to_goal": 0.09102834761142731,
+      "reward": 8.37784481048584
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '3')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8304432823301788,
+      "distance_to_goal": 0.04493444040417671,
+      "reward": 6.659782409667969
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9766439046682877,
+      "distance_to_goal": 0.06242266669869423,
+      "reward": 10.314454078674316
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8693387723614406,
+      "distance_to_goal": 0.04160773754119873,
+      "reward": 15.696248054504395
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.2780897511558992,
+      "distance_to_goal": 0.06589633971452713,
+      "reward": 6.481030464172363
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8562827792680906,
+      "distance_to_goal": 0.10736661404371262,
+      "reward": 13.110755920410156
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.47329974651618617,
+      "distance_to_goal": 0.11009779572486877,
+      "reward": 10.543086051940918
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8946624899053712,
+      "distance_to_goal": 0.11033881455659866,
+      "reward": 4.414498805999756
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5486410955434777,
+      "distance_to_goal": 0.07464804500341415,
+      "reward": 11.480864524841309
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9796420688763894,
+      "distance_to_goal": 0.03350512310862541,
+      "reward": 5.993434906005859
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5953468764796255,
+      "distance_to_goal": 0.054228831082582474,
+      "reward": 19.83536720275879
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9241661764599164,
+      "distance_to_goal": 0.13586588203907013,
+      "reward": 10.374706268310547
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7334772906835707,
+      "distance_to_goal": 0.13820481300354004,
+      "reward": 7.646954536437988
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '6')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.3287805092935243,
+      "distance_to_goal": 0.12977774441242218,
+      "reward": 3.204601764678955
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '11')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8883575919821091,
+      "distance_to_goal": 0.1068444699048996,
+      "reward": 8.539419174194336
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9559123937245464,
+      "distance_to_goal": 0.06824091076850891,
+      "reward": 7.912250518798828
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7548104482635077,
+      "distance_to_goal": 0.08082173019647598,
+      "reward": 9.289470672607422
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9553737908565904,
+      "distance_to_goal": 0.08730495721101761,
+      "reward": 7.025607109069824
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.91035614694791,
+      "distance_to_goal": 0.06575576961040497,
+      "reward": 19.269550323486328
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9688006361612572,
+      "distance_to_goal": 0.11572403460741043,
+      "reward": 12.656999588012695
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9373121420538912,
+      "distance_to_goal": 0.09248499572277069,
+      "reward": 9.040223121643066
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7657025483137863,
+      "distance_to_goal": 0.07116436958312988,
+      "reward": 4.905854225158691
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7955764658255219,
+      "distance_to_goal": 0.032426618039608,
+      "reward": 14.073136329650879
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6371269891794608,
+      "distance_to_goal": 0.12775370478630066,
+      "reward": 9.67495346069336
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 5.185998916625977,
+      "reward": -3.299107789993286
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8197063515627508,
+      "distance_to_goal": 0.04124228656291962,
+      "reward": 8.570624351501465
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6260235248255228,
+      "distance_to_goal": 0.10209697484970093,
+      "reward": 15.725000381469727
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 7.0434370040893555,
+      "reward": -3.7478530406951904
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9646550960526739,
+      "distance_to_goal": 0.14431901276111603,
+      "reward": 9.079501152038574
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9454761959585969,
+      "distance_to_goal": 0.09196541458368301,
+      "reward": 6.194764137268066
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.032901830971241,
+      "reward": 5.882070541381836
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9754364997208461,
+      "distance_to_goal": 0.12196684628725052,
+      "reward": 21.926742553710938
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.418901309068539,
+      "distance_to_goal": 0.11331433802843094,
+      "reward": 7.296124458312988
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.4858791843170318,
+      "distance_to_goal": 0.12675735354423523,
+      "reward": 8.773965835571289
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7137025324956032,
+      "distance_to_goal": 0.13596872985363007,
+      "reward": 10.720643043518066
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9530490259922393,
+      "distance_to_goal": 0.10755401104688644,
+      "reward": 15.052431106567383
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9308099814966517,
+      "distance_to_goal": 0.18343527615070343,
+      "reward": 6.31797981262207
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.2958373725414276,
+      "reward": 1.5831648111343384
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9694314009183451,
+      "distance_to_goal": 0.028944620862603188,
+      "reward": 5.773609161376953
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8685383684529584,
+      "distance_to_goal": 0.08074741065502167,
+      "reward": 5.920568466186523
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.379296444277552,
+      "distance_to_goal": 0.055131494998931885,
+      "reward": 9.2455472946167
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '6')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9966808724816185,
+      "distance_to_goal": 0.16801883280277252,
+      "reward": 14.132765769958496
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9245007587856525,
+      "distance_to_goal": 0.07199074327945709,
+      "reward": 9.054564476013184
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.655385664420546,
+      "distance_to_goal": 0.15084712207317352,
+      "reward": 6.534136772155762
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 9.11618423461914,
+      "reward": 2.7033326625823975
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5825173577363932,
+      "distance_to_goal": 0.08271607011556625,
+      "reward": 8.34814167022705
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8567936485142303,
+      "distance_to_goal": 0.10082720220088959,
+      "reward": 14.149641036987305
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9344064868930367,
+      "distance_to_goal": 0.07225966453552246,
+      "reward": 7.345894813537598
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.4577984909903538,
+      "distance_to_goal": 0.16753338277339935,
+      "reward": 7.686884880065918
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.07228682190179825,
+      "reward": 5.810258388519287
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '19')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.3938786502096604,
+      "distance_to_goal": 0.10772150754928589,
+      "reward": 8.123522758483887
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9452589282485973,
+      "distance_to_goal": 0.12558189034461975,
+      "reward": 6.474515438079834
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9633922726483187,
+      "distance_to_goal": 0.1266452819108963,
+      "reward": 23.164230346679688
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.45742097435210116,
+      "distance_to_goal": 0.16021926701068878,
+      "reward": 10.017741203308105
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 6.3689374923706055,
+      "reward": -6.105199813842773
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '11')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9803396725178005,
+      "distance_to_goal": 0.05400409549474716,
+      "reward": 7.803375244140625
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.4239716072562235,
+      "distance_to_goal": 0.13875502347946167,
+      "reward": 14.323044776916504
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7733443472319529,
+      "distance_to_goal": 0.022562706843018532,
+      "reward": 9.034601211547852
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9686433949241766,
+      "distance_to_goal": 0.15082161128520966,
+      "reward": 13.599045753479004
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '11')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5869547827169813,
+      "distance_to_goal": 0.16820622980594635,
+      "reward": 4.853666305541992
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5463065577492111,
+      "distance_to_goal": 0.09239254146814346,
+      "reward": 11.83114242553711
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9520953837613947,
+      "distance_to_goal": 0.10336172580718994,
+      "reward": 12.028067588806152
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 8.16270637512207,
+      "reward": -3.973578929901123
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.48255853259355636,
+      "distance_to_goal": 0.15760929882526398,
+      "reward": 14.24471378326416
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5254979583242458,
+      "distance_to_goal": 0.13710840046405792,
+      "reward": 8.546449661254883
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8211431911411826,
+      "distance_to_goal": 0.15162895619869232,
+      "reward": 12.373623847961426
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9625264593007437,
+      "distance_to_goal": 0.09460707008838654,
+      "reward": 8.42648696899414
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.925114786290785,
+      "distance_to_goal": 0.15796834230422974,
+      "reward": 14.200570106506348
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '3')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9814575894718187,
+      "distance_to_goal": 0.0503581166267395,
+      "reward": 14.33729362487793
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9672590302243733,
+      "distance_to_goal": 0.05936986207962036,
+      "reward": 19.07832908630371
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9335530811753877,
+      "distance_to_goal": 0.15287944674491882,
+      "reward": 8.689631462097168
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9513996236640648,
+      "distance_to_goal": 0.13669370114803314,
+      "reward": 15.094259262084961
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9595340793636234,
+      "distance_to_goal": 0.15408426523208618,
+      "reward": 10.291566848754883
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 9.462203979492188,
+      "reward": 1.53412926197052
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8648999574181252,
+      "distance_to_goal": 0.043077465146780014,
+      "reward": 13.4293794631958
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6479066256530881,
+      "distance_to_goal": 0.11324139684438705,
+      "reward": 5.408169269561768
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9262764226806702,
+      "distance_to_goal": 0.1590300053358078,
+      "reward": 14.015913009643555
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.971455447800519,
+      "distance_to_goal": 0.04147715866565704,
+      "reward": 12.755173683166504
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.2269789202536611,
+      "distance_to_goal": 0.016344834119081497,
+      "reward": 5.960882186889648
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9486336199808998,
+      "distance_to_goal": 0.10052786767482758,
+      "reward": 12.948554039001465
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.964018258828273,
+      "distance_to_goal": 0.1665193885564804,
+      "reward": 5.192168235778809
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5096719823459307,
+      "distance_to_goal": 0.13581115007400513,
+      "reward": 8.716682434082031
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9706878081678968,
+      "distance_to_goal": 0.06554508954286575,
+      "reward": 11.070436477661133
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '11')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.870861778512083,
+      "distance_to_goal": 0.030642207711935043,
+      "reward": 10.307095527648926
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.3205723464488983,
+      "reward": 10.715333938598633
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9624491984629102,
+      "distance_to_goal": 0.15595848858356476,
+      "reward": 7.982420921325684
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9927275381668277,
+      "distance_to_goal": 0.04369603842496872,
+      "reward": 9.27336597442627
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7431145678278129,
+      "distance_to_goal": 0.09706087410449982,
+      "reward": 9.718318939208984
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9761263046735005,
+      "distance_to_goal": 0.14166176319122314,
+      "reward": 8.368735313415527
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '11')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9625008442447364,
+      "distance_to_goal": 0.11248266696929932,
+      "reward": 6.389177322387695
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9354380577546534,
+      "distance_to_goal": 0.1758599877357483,
+      "reward": 7.600744247436523
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8655106584939884,
+      "distance_to_goal": 0.10545926541090012,
+      "reward": 8.209918975830078
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.957276035527259,
+      "distance_to_goal": 0.14103524386882782,
+      "reward": 7.887146949768066
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9311205640809731,
+      "distance_to_goal": 0.1059178039431572,
+      "reward": 11.39582347869873
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9716464762058933,
+      "distance_to_goal": 0.08698563277721405,
+      "reward": 11.296606063842773
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8541416597607803,
+      "distance_to_goal": 0.09740452468395233,
+      "reward": 3.240334987640381
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9074000489805002,
+      "distance_to_goal": 0.1507200300693512,
+      "reward": 7.356605529785156
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '20')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9762386207712052,
+      "distance_to_goal": 0.13820454478263855,
+      "reward": 6.848736763000488
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.18515861865309663,
+      "distance_to_goal": 0.0451681949198246,
+      "reward": 3.2656004428863525
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9840497919756539,
+      "distance_to_goal": 0.13798761367797852,
+      "reward": 9.338645935058594
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8691228746654008,
+      "distance_to_goal": 0.1084405854344368,
+      "reward": 14.241897583007812
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7765542353108756,
+      "distance_to_goal": 0.0984049141407013,
+      "reward": 4.721038818359375
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9935087298189951,
+      "distance_to_goal": 0.10894522815942764,
+      "reward": 10.197248458862305
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9698540871224022,
+      "distance_to_goal": 0.1333831250667572,
+      "reward": 11.633143424987793
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '19')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9790427804866424,
+      "distance_to_goal": 0.12880700826644897,
+      "reward": 7.017839431762695
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9659806892019394,
+      "distance_to_goal": 0.1069629117846489,
+      "reward": 8.515721321105957
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '9')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9841110114932158,
+      "distance_to_goal": 0.11238060891628265,
+      "reward": 10.438132286071777
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9582049657336017,
+      "distance_to_goal": 0.13015547394752502,
+      "reward": 9.735013008117676
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8299809663653764,
+      "distance_to_goal": 0.16514207422733307,
+      "reward": 6.600099563598633
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9694416511473247,
+      "distance_to_goal": 0.11245960742235184,
+      "reward": 10.4558744430542
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7679604782073188,
+      "distance_to_goal": 0.10439878702163696,
+      "reward": 6.588140487670898
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6293938398489338,
+      "distance_to_goal": 0.12002740055322647,
+      "reward": 18.200395584106445
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.3661794364452362,
+      "reward": 10.216368675231934
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '19')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.11752720177173615,
+      "reward": 9.943084716796875
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8016435827972318,
+      "distance_to_goal": 0.08089534938335419,
+      "reward": 9.551170349121094
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '3')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.15614816546440125,
+      "reward": 7.18889045715332
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9649758994727827,
+      "distance_to_goal": 0.09013068675994873,
+      "reward": 14.923914909362793
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.027483414858579636,
+      "reward": 7.53391170501709
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7453357792460957,
+      "distance_to_goal": 0.04758061468601227,
+      "reward": 6.45424747467041
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9629740343715079,
+      "distance_to_goal": 0.0756308063864708,
+      "reward": 8.025121688842773
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00841-SByzJLxpRGn/SByzJLxpRGn.basis.glb', '19')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8615185877964491,
+      "distance_to_goal": 0.08196812123060226,
+      "reward": 5.895934104919434
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8442902249296933,
+      "distance_to_goal": 0.05727066844701767,
+      "reward": 5.439126014709473
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '11')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.16901539875731467,
+      "distance_to_goal": 0.15158677101135254,
+      "reward": 2.7721779346466064
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.4793815304541124,
+      "distance_to_goal": 0.18892334401607513,
+      "reward": 4.156406879425049
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9816459022213956,
+      "distance_to_goal": 0.1426139920949936,
+      "reward": 12.01535701751709
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9832175026381602,
+      "distance_to_goal": 0.15723977982997894,
+      "reward": 9.25705623626709
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '4')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.99664319030524,
+      "distance_to_goal": 0.06305398046970367,
+      "reward": 7.690718650817871
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '2')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9606388796792706,
+      "distance_to_goal": 0.02235318161547184,
+      "reward": 12.555095672607422
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb', '16')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6279701156397818,
+      "distance_to_goal": 0.18357516825199127,
+      "reward": 8.251516342163086
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 17.15740966796875,
+      "reward": -12.432764053344727
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5988403569052237,
+      "distance_to_goal": 0.06777401268482208,
+      "reward": 5.804574489593506
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9759326957578679,
+      "distance_to_goal": 0.04312217980623245,
+      "reward": 12.798083305358887
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.35435091340670277,
+      "distance_to_goal": 0.12402983009815216,
+      "reward": 9.306519508361816
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7874123907744364,
+      "distance_to_goal": 0.04661738872528076,
+      "reward": 5.874307155609131
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9613815974790266,
+      "distance_to_goal": 0.06311961263418198,
+      "reward": 11.561076164245605
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9122402114677463,
+      "distance_to_goal": 0.05119148641824722,
+      "reward": 11.304917335510254
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9081609985709038,
+      "distance_to_goal": 0.10331722348928452,
+      "reward": 8.771631240844727
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.925651263418852,
+      "distance_to_goal": 0.026864083483815193,
+      "reward": 8.835153579711914
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '17')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.514581848394385,
+      "distance_to_goal": 0.1607501357793808,
+      "reward": 3.834420680999756
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '6')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.203478142619133,
+      "reward": 19.027645111083984
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.3473082060124061,
+      "distance_to_goal": 0.06849325448274612,
+      "reward": 5.9823994636535645
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00887-hyFzGGJCSYs/hyFzGGJCSYs.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8958362938081377,
+      "distance_to_goal": 0.07046329975128174,
+      "reward": 7.278084754943848
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '18')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9377675365021566,
+      "distance_to_goal": 0.14721398055553436,
+      "reward": 7.337273597717285
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.936423861121862,
+      "distance_to_goal": 0.1503058522939682,
+      "reward": 6.369344711303711
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00842-hkr2MGpHD6B/hkr2MGpHD6B.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.10953103005886078,
+      "reward": 9.196311950683594
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '10')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6854686308005986,
+      "distance_to_goal": 0.04545265808701515,
+      "reward": 14.120981216430664
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 1.6446927785873413,
+      "reward": 9.520075798034668
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9281800706222905,
+      "distance_to_goal": 0.04123136028647423,
+      "reward": 13.478318214416504
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9830842723241229,
+      "distance_to_goal": 0.12126712501049042,
+      "reward": 17.512189865112305
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '3')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.7393244509202717,
+      "distance_to_goal": 0.06352148205041885,
+      "reward": 6.836043357849121
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00814-p53SfW6mjZe/p53SfW6mjZe.basis.glb', '21')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9727733580933627,
+      "distance_to_goal": 0.11991824209690094,
+      "reward": 6.954622268676758
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9420416981529234,
+      "distance_to_goal": 0.17407456040382385,
+      "reward": 9.040576934814453
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '1')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8530149025983979,
+      "distance_to_goal": 0.13143378496170044,
+      "reward": 21.28630256652832
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.21055284142494202,
+      "reward": 7.37873649597168
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9469479018017944,
+      "distance_to_goal": 0.1168828010559082,
+      "reward": 10.868630409240723
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9459701248076566,
+      "distance_to_goal": 0.17429119348526,
+      "reward": 9.12237548828125
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00834-AWUFxHEyV3T/AWUFxHEyV3T.basis.glb', '15')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 1.2790546417236328,
+      "reward": 11.498405456542969
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 8.470794677734375,
+      "reward": -2.285487651824951
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '13')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 9.520905494689941,
+      "reward": -6.222355842590332
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00842-hkr2MGpHD6B/hkr2MGpHD6B.basis.glb', '24')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.6690170412676427,
+      "distance_to_goal": 0.06875703483819962,
+      "reward": 21.106164932250977
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '6')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.651394746526841,
+      "distance_to_goal": 0.16500818729400635,
+      "reward": 8.615703582763672
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '14')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8967470358640411,
+      "distance_to_goal": 0.04059188812971115,
+      "reward": 8.277347564697266
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00819-6D36GQHuP8H/6D36GQHuP8H.basis.glb', '8')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 0.20486383140087128,
+      "reward": 1.8550760746002197
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00863-b28CWbpQvor/b28CWbpQvor.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5325301953195576,
+      "distance_to_goal": 0.15075279772281647,
+      "reward": 15.836845397949219
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb', '22')",
+      "episode_id": "1",
+      "success": 0.0,
+      "spl": 0.0,
+      "distance_to_goal": 12.592863082885742,
+      "reward": -4.878888130187988
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00840-z9YwN9M8FpG/z9YwN9M8FpG.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 1.0,
+      "distance_to_goal": 0.1361720860004425,
+      "reward": 8.234801292419434
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '0')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.8350453113280879,
+      "distance_to_goal": 0.11958334594964981,
+      "reward": 11.888656616210938
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9716866772473448,
+      "distance_to_goal": 0.11155857890844345,
+      "reward": 8.136946678161621
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00885-dVW2D7TDctW/dVW2D7TDctW.basis.glb', '12')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.5599130130359388,
+      "distance_to_goal": 0.14907899498939514,
+      "reward": 15.202768325805664
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00808-y9hTuugGdiq/y9hTuugGdiq.basis.glb', '23')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9959431834383695,
+      "distance_to_goal": 0.06806501001119614,
+      "reward": 7.677908897399902
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00881-u1bkiGRVyu9/u1bkiGRVyu9.basis.glb', '7')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.9813205294794741,
+      "distance_to_goal": 0.14778244495391846,
+      "reward": 10.583572387695312
+    },
+    {
+      "scene_id": "('data/scene_datasets/hm3d/val/00823-7MXmsvcQjpJ/7MXmsvcQjpJ.basis.glb', '5')",
+      "episode_id": "1",
+      "success": 1.0,
+      "spl": 0.19782108714757501,
+      "distance_to_goal": 0.10749480873346329,
+      "reward": 5.245358467102051
+    }
+  ]
+}

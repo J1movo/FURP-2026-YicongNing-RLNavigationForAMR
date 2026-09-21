@@ -1,0 +1,19 @@
+{
+  "source": "Terminal output from AutoDL eval (2026-08-07)",
+  "stop_aware_1e7": {
+    "seed100": {"sr": 0.895, "spl": 0.730, "dtg": 0.727, "lost": 13, "near_miss": 8, "bad_stop": 0},
+    "seed200": {"sr": 0.875, "spl": 0.719, "dtg": 0.770, "lost": 14, "near_miss": 10, "bad_stop": 1},
+    "seed300": {"sr": 0.900, "spl": 0.745, "dtg": 0.842, "lost": 15, "near_miss": 5, "bad_stop": 0},
+    "merged_600ep": {"sr": 0.890, "lost": 42, "near_miss": 23, "bad_stop": 1}
+  },
+  "stop_aware_5e7": {
+    "seed300": {"sr": 0.945, "spl": 0.820, "dtg": 0.515, "lost": 8, "near_miss": 3, "bad_stop": 0}
+  },
+  "baseline_merged_600ep": {
+    "sr": 0.845, "lost": 58, "near_miss": 30, "bad_stop": 5
+  },
+  "real_robot": {
+    "baseline_seed300": "Goal reached (2026-08-05)",
+    "stop_aware_5e7_seed300": "Goal reached (2026-08-07)"
+  }
+}

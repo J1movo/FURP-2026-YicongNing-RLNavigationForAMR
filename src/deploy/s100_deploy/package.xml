@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>s100_deploy</name>
+  <version>1.0.0</version>
+  <description>
+    WHEELTEC S100 PointGoal PPO deployment (ROS 1 Noetic).
+
+    Loads a habitat-baselines PointNav checkpoint, subscribes to the Astra S
+    RGB + depth streams and EKF odometry, converts incoming point goals to
+    Habitat POLAR coordinates, and publishes discrete-action-derived velocity
+    commands to /cmd_vel.
+  </description>
+
+  <maintainer email="nyc2944261@gmail.com">Yicong Ning</maintainer>
+  <license>MIT</license>
+  <url type="repository">https://github.com/J1movo/FURP-2026-YicongNing-RLNavigationForAMR</url>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <!-- Pure-Python package: runtime dependencies only -->
+  <exec_depend>rospy</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+
+  <!--
+    Not declared as rosdep keys because they are not installable via apt and
+    must be provided by the `wheeltec` conda environment instead:
+      torch (NVIDIA Jetson build), habitat-lab, habitat-baselines
+    See ../../docs/ENVIRONMENT.md for the full setup.
+  -->
+
+  <export/>
+</package>

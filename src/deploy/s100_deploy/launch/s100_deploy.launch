@@ -1,0 +1,68 @@
+<launch>
+  <!-- ================================================================= -->
+  <!-- S100 PointNav PPO deployment (ROS 1 Noetic)                       -->
+  <!--                                                                   -->
+  <!-- Prerequisites:                                                     -->
+  <!--   1. Camera running: roslaunch turn_on_wheeltec_robot              -->
+  <!--      wheeltec_camera.launch                                       -->
+  <!--   2. Chassis driver running: roslaunch turn_on_wheeltec_robot     -->
+  <!--      turn_on_wheeltec_robot.launch                                -->
+  <!--   3. conda env 'wheeltec' with torch + habitat-baselines          -->
+  <!--                                                                   -->
+  <!-- Usage:                                                             -->
+  <!--   roslaunch s100_deploy s100_deploy.launch                        -->
+  <!--   roslaunch s100_deploy s100_deploy.launch dry_run:=true          -->
+  <!-- ================================================================= -->
+
+  <!-- Model -->
+  <arg name="ckpt_path" default="/home/wheeltec/s100_deploy/ckpt.49.pth"/>
+  <arg name="device" default="cuda"/>
+
+  <!-- Control -->
+  <arg name="control_rate" default="10.0"/>
+  <arg name="execution_mode" default="continuous"/>
+  <arg name="forward_speed" default="0.25"/>
+  <arg name="turn_speed" default="0.5"/>
+  <arg name="forward_step" default="0.25"/>
+  <arg name="turn_angle_deg" default="10.0"/>
+  <arg name="success_distance" default="0.2"/>
+  <arg name="max_steps" default="500"/>
+
+  <!-- Safety -->
+  <arg name="min_depth_for_safety" default="0.3"/>
+  <arg name="dry_run" default="false"/>
+
+  <!-- Topics -->
+  <arg name="rgb_topic" default="/camera/rgb/image_raw"/>
+  <arg name="depth_topic" default="/camera/depth/image_raw"/>
+  <arg name="odom_topic" default="/robot_pose_ekf/odom_combined"/>
+  <arg name="goal_topic" default="/move_base_simple/goal"/>
+  <arg name="cmd_topic" default="/cmd_vel"/>
+
+  <!-- PPO node (launched inside conda 'wheeltec' environment) -->
+  <node name="s100_ppo_nav" pkg="s100_deploy" type="s100_inference_node.py"
+        output="screen"
+        launch-prefix="bash -c 'source $$HOME/anaconda3/etc/profile.d/conda.sh &amp;&amp; conda activate wheeltec &amp;&amp; exec python3 &quot;$$@&quot;' --">
+
+    <param name="ckpt_path" value="$(arg ckpt_path)"/>
+    <param name="device" value="$(arg device)"/>
+
+    <param name="control_rate" value="$(arg control_rate)"/>
+    <param name="execution_mode" value="$(arg execution_mode)"/>
+    <param name="forward_speed" value="$(arg forward_speed)"/>
+    <param name="turn_speed" value="$(arg turn_speed)"/>
+    <param name="forward_step" value="$(arg forward_step)"/>
+    <param name="turn_angle_deg" value="$(arg turn_angle_deg)"/>
+    <param name="success_distance" value="$(arg success_distance)"/>
+    <param name="max_steps" value="$(arg max_steps)"/>
+
+    <param name="min_depth_for_safety" value="$(arg min_depth_for_safety)"/>
+    <param name="dry_run" value="$(arg dry_run)"/>
+
+    <param name="rgb_topic" value="$(arg rgb_topic)"/>
+    <param name="depth_topic" value="$(arg depth_topic)"/>
+    <param name="odom_topic" value="$(arg odom_topic)"/>
+    <param name="goal_topic" value="$(arg goal_topic)"/>
+    <param name="cmd_topic" value="$(arg cmd_topic)"/>
+  </node>
+</launch>
