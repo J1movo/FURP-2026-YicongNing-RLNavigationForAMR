@@ -36,6 +36,7 @@ Replicated the PointGoal PPO navigation baseline in Habitat on the Gibson datase
 | Item | Location |
 |---|---|
 | Final report | [`REPORT.md`](REPORT.md) |
+| Poster | [`FURP_Showcase.pdf`](FURP_Showcase.pdf) |
 | Environment & dependencies (training / deployment / simulation) | [`docs/ENVIRONMENT.md`](docs/ENVIRONMENT.md) |
 | Weekly logs, Weeks 1–8 (indexed) | [`docs/00_weekly.md`](docs/00_weekly.md) |
 | ROS 1 deployment package (buildable with `catkin_make`) | [`src/deploy/s100_deploy/`](src/deploy/s100_deploy/) |
@@ -59,6 +60,7 @@ Replicated the PointGoal PPO navigation baseline in Habitat on the Gibson datase
   │   └── wheeltec_s100/    platform specification and robot media
   └── joint_phase/          joint-phase materials (see PROVENANCE.md)
 REPORT.md                   final report
+FURP_Showcase.pdf           poster
 ```
 
 ## Quick checklist
@@ -68,7 +70,7 @@ REPORT.md                   final report
 - [x] Filled in the *Project Info* table
 - [x] Started `docs/00_weekly.md`
 - [x] Created meeting notes in `docs/meeting_notes/`
-- [ ] (By Showcase) Added `FURP_Showcase.pdf` to the repo root
+- [x] Added `FURP_Showcase.pdf` to the repo root
 
 ---
 
